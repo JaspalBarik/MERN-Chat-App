@@ -1,0 +1,51 @@
+# ========================
+# Node Modules (Root + Client + Server)
+# ========================
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ========================
+# Environment Files
+# ========================
+.env
+*.env
+client/.env
+server/.env
+
+# ========================
+# Build / Output Folders
+# ========================
+dist/
+build/
+
+client/dist/
+client/build/
+
+server/dist/
+server/build/
+
+# ========================
+# Vercel Deployment Folder
+# ========================
+.vercel/
+
+# ========================
+# Logs
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# System Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Editor Settings
+# (optional but recommended)
+# ========================
+.vscode/
+.idea/
